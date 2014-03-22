@@ -1,0 +1,13 @@
+<%= form_tag(products_path, method: :get) do %>
+  <div>
+    <%= label_tag :category %>
+    <%= check_box_tag :category, '1', params[:category] %>
+  </div>
+  <div>
+    <%= submit_tag %>
+  </div>
+<% end %>
+
+<div id="products">
+  params[:category] == <%= params[:category] %>
+</div>
