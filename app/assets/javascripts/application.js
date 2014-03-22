@@ -13,5 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require wiselinks
-//= require_tree .
+
+//= require _initializers
+//= require _wiselinks
+
+
 
