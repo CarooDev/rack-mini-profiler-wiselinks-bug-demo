@@ -1,4 +1,4 @@
-<%= form_tag(products_path, method: :get) do %>
+<%= form_tag(products_path, method: :get, 'data-push' => true) do %>
   <div>
     <%= label_tag :category %>
     <%= check_box_tag :category, '1', params[:category] %>
